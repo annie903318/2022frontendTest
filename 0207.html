@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0207練習</title>
+    <style>
+        td{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="text-align: center;">
+        <tr>
+            <td colspan="7">課表</td>
+        </tr>
+        <tr>
+            <td>課堂/星期</td>
+            <td>時間</td>
+            <td>一</td>
+            <td>二</td>
+            <td>三</td>
+            <td>四</td>
+            <td>五</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>8:10~9:00</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>9:10~10:00</td>
+            <td> </td>
+            <td> </td>
+            <td rowspan="3">電子商務</td>
+            <td rowspan="3">研究方法</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>10:10~11:00</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>11:10~12:00</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td colspan="7">午休時間</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>13:25~14:15</td>
+            <td rowspan="3">人工智慧</td>
+            <td> </td>
+            <td> </td>
+            <td rowspan="3">書報討論</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>14:20~15:10</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>15:20~16:10</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>16:15~17:05</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td>班會</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td colspan="7">資管所研一</td>
+        </tr>
+        
+    </table>
+
+    <br/><br/>
+
+    <form>
+        <p>
+            <label>姓名：</label>
+            <input />
+        </p>
+
+        <p>
+            <label>生日：</label>
+            <input type="date"/>
+        </p>
+
+        <p>
+            <label>Email：</label>
+            <input type="email"/>
+        </p>
+
+        <p>
+            <label>密碼：</label>
+            <input type="password"/>
+        </p>
+
+        <p>
+            <label>智商：</label>
+            <input type="number"/>
+        </p>
+
+        <p>
+             <label>履歷：</label>
+            <input type="file"/>
+        </p>
+
+        <p>
+            <label>秒懂進度：</label><br/>
+            <input type="checkbox" id="c1"/><label for="c1">Html</label><br/>
+            <input type="checkbox" id="c2"/><label for="c2">Css</label><br/>
+            <input type="checkbox" id="c3"/><label for="c3">Jquery</label><br/>
+            <input type="checkbox" id="c4"/><label for="c4">版面切割</label><br/>
+            <input type="checkbox" id="c5"/><label for="c5">Bootstrap</label><br/>
+            <input type="checkbox" id="c6"/><label for="c6">Bootstrap + RWD</label>
+        </p>
+        
+        <p>
+            <label>作業是否完成：</label><br/>
+            <input type="radio" name="hw" id="h1"/><label for="h1">Yes</label>
+            <input type="radio" name="hw" id="h2"/><label for="h2">No</label>
+        </p>
+
+        <p>
+            <label>作業完成時間：</label><br/>
+            <input type="time"/>
+        </p>
+
+        <p>
+            <label>喜歡這次作業嗎：</label><br/>
+            <input type="range"/>
+        </p>
+        
+        <p>
+            <label>對作業有哪些建議：</label><br/>
+            <textarea cols="20" rows="3"></textarea>
+        </p> 
+
+        <p>
+            <button type="reset">重設</button>
+            <button type="submit">提交</button>
+        </p>
+        
+
+        <input type="image" width="200" src="https://i.ytimg.com/vi/x-S8vKV59Ik/maxresdefault.jpg"/>
+    </form>
+</body>
+</html>

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Microsoft Jhenghei';
+}
+body{
+    display: flex;
+    justify-content: flex-start;
+}
+.sidebar{
+    width: 15%;
+}
+.content{
+    width: 85%;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 25px;
+}
+.logo{
+    height: 40px;
+    width: 115px;
+    padding: 3px 20px 1px;
+}
+.menu_list{
+    border-bottom: 1px solid #aaaaaa;
+}
+.menu_item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 20px;
+}
+.menu_item .fa{
+    padding: 3px 27px 3px 4px;
+}
+.sub_text{
+    padding: 8px 20px;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 8px 0;
+}
+.searchbar form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.searchbar form input{
+    font-size: 16px;
+    padding: 5px 8px;
+    width: 80%;
+}
+.searchbar form button, .talk{
+    height: 35px;
+    width: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar form button img, .talk img{
+    height: 65%;
+    width: auto;
+}
+
+.personal, .personal a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personal a img{
+    width: 20px;
+    height: 20px;
+    padding: 3px 15px;
+}
+.personal a:nth-child(4) img{
+    width: 30px;
+    height: 30px; 
+    border-radius: 50%;
+}
+.type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #aaaaaa;
+}
+.type_item{
+    padding: 3px 9px;
+    margin: 8px 6px;
+    background: #f0f0f0;
+    border: 1px solid #aaaaaa;
+    border-radius: 100px;
+}
+.type_item:nth-child(1){
+    background: #000;
+    color: #fff;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fffdfd;
+}
+.videos_item{
+    width: 22%;
+    height: 260px;
+    padding: 2% 1%;
+}
+.video_item_pic, .video_item_pic>img{
+    width: 100%;
+    height: 180px;
+    margin: 0 0 15px;
+}
+.video_detail{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.video_channel img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+.video_detail p{
+    line-height: 18px;
+}
+.video_detail p:nth-child(2), .video_detail p:nth-child(3){
+    font-size: 12px;
+}
